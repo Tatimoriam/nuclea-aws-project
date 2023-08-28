@@ -21,7 +21,7 @@ alta disponibilidade.
 Essa foi a solução proposta por este grupo.
 
 ## O Projeto
-![diagrama](/img/diagrama-projeto.png)
+![Diagrama da arquitetura](https://github.com/michelle-lira/nuclea-aws-project/blob/main/img/arquitetura-projeto-cloud-aws.png)
 
 Chegamos na ideia de subir esse relatório para a S3 utilizando
 Lambda para rodar nossos script.
