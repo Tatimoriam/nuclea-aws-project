@@ -27,7 +27,7 @@ Chegamos na ideia de subir esse relatório para a S3 utilizando
 Lambda para rodar nossos script.
 
 O fluxo do projeto se dá conforme diagrama a cima:
-> A 12:00 GMT+3 um evento será disparado pelo CloudWatch Event para a 
+> Às 12:00 GMT+3 um evento será disparado pelo CloudWatch Event para a 
 > função lambda chamada **projeto-lambda-nuclea**.
 > Esta função então irá fazer uma requisição utilizando a biblioteca **yfinance**
 > para gerar um relatório com os dados solicitados e subir esse relatório para o bucket 
