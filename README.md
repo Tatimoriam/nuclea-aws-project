@@ -28,7 +28,7 @@ Obs: os relatórios podem ser fictícios - podendo usar qualquer tipo de arquivo
 Plus: Incluir o desenho da arquitetura planejada utilizando draw.io
 
 ## O Projeto
-![Diagrama da arquitetura](https://github.com/michelle-lira/nuclea-aws-project/blob/main/img/arquitetura-projeto-cloud-aws.png)
+![Diagrama da arquitetura](/img/arquitetura-projeto-cloud-aws.png)
 
 Chegamos na ideia de subir esse relatório para a S3 utilizando
 Lambda para rodar nossos script.
