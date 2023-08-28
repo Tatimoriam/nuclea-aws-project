@@ -18,7 +18,14 @@ A proposta deste projeto era criar uma forma de automatizar a
 subida de relatórios, garantido resiliência, segurança e 
 alta disponibilidade.
 
-Essa foi a solução proposta por este grupo.
+Essa foi a solução proposta por este grupo, para o caso de uso apresentado:
+
+>O gerente da empresa que você trabalha precisa subir relatórios, ele te chamou para ajudá-lo com uma nova automação que possa incluir esses arquivos garantindo resiliência, segurança e alta disponibilidade. Você como arquiteto/a de soluções o convence a usar AWS.
+
+O objetivo é mostrar a solução funcionando na reunião do final de módulo e apresentar ao gerente (vulgo seu instrutor) para alcançar sua promoção.
+
+Obs: os relatórios podem ser fictícios - podendo usar qualquer tipo de arquivo
+Plus: Incluir o desenho da arquitetura planejada utilizando draw.io
 
 ## O Projeto
 ![Diagrama da arquitetura](https://github.com/michelle-lira/nuclea-aws-project/blob/main/img/arquitetura-projeto-cloud-aws.png)
