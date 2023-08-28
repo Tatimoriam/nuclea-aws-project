@@ -14,8 +14,8 @@ em parceria com a [Núclea](https://www.linkedin.com/company/nucleabr/).
 
 ## A Proposta
 
-A proposta desde projeto era criar uma forma de automatizar a 
-subida de relatórios, garantido resiliência, seguran e 
+A proposta deste projeto era criar uma forma de automatizar a 
+subida de relatórios, garantido resiliência, segurança e 
 alta disponibilidade.
 
 Essa foi a solução proposta por este grupo.
