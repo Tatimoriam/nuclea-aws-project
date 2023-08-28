@@ -14,20 +14,20 @@ em parceria com a [Núclea](https://www.linkedin.com/company/nucleabr/).
 
 ## A Proposta
 
-A proposta desde projeto era criar uma forma de automatizar a 
-subida de relatórios, garantido resiliência, seguran e 
+A proposta deste projeto era criar uma forma de automatizar a 
+subida de relatórios, garantido resiliência, segurança e 
 alta disponibilidade.
 
 Essa foi a solução proposta por este grupo.
 
 ## O Projeto
-![diagrama](/img/diagrama-projeto.png)
+![Diagrama da arquitetura](https://github.com/michelle-lira/nuclea-aws-project/blob/main/img/arquitetura-projeto-cloud-aws.png)
 
 Chegamos na ideia de subir esse relatório para a S3 utilizando
 Lambda para rodar nossos script.
 
 O fluxo do projeto se dá conforme diagrama a cima:
-> A 12:00 GMT+3 um evento será disparado pelo CloudWatch Event para a 
+> Às 12:00 GMT+3 um evento será disparado pelo CloudWatch Event para a 
 > função lambda chamada **projeto-lambda-nuclea**.
 > Esta função então irá fazer uma requisição utilizando a biblioteca **yfinance**
 > para gerar um relatório com os dados solicitados e subir esse relatório para o bucket 
