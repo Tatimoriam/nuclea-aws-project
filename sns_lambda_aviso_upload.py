@@ -21,7 +21,7 @@ def lambda_handler(event, context):
     # envia mensagem para o SNS replicar
     client = boto3.client('sns')
     response = client.publish(
-        TopicArn="arn:aws:sns:us-east-1:155372376567:projeto-sns-nuclea",
+        TopicArn="[arn:aws:sns]",
         Subject="[AWS Lambda] Um novo arquivo foi enviado para o S3",
         Message=texto_evento,
         MessageStructure='string',
